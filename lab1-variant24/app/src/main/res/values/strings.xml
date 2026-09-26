@@ -5,4 +5,5 @@
     <string name="label_sentence_two">Предложение 2</string>
     <string name="button_find">Получить результат</string>
     <string name="label_result">Результат</string>
+    <string name="result_not_found">Общих слов не найдено</string>
 </resources>
