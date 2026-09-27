@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab1 Variant24</string>
+    <string name="label_sentence_one">Предложение 1</string>
+    <string name="hint_sentence">Введите предложение.</string>
+    <string name="label_sentence_two">Предложение 2</string>
+    <string name="button_find">Получить результат</string>
+    <string name="label_result">Результат</string>
+    <string name="result_not_found">Общих слов не найдено</string>
+</resources>
