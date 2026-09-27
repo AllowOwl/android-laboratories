@@ -2,7 +2,7 @@ package com.example.lab1variant24.domain
 
 object CommonWordFinder {
     const val FIRST_SENTENCE = "One two three four five six seven"
-    const val SECOND_SENTENCE = "Three friends to find a two cockroaches"
+    const val SECOND_SENTENCE = "Three friends find two cockroaches"
 
     fun findLongestCommonWords(first: String, second: String): List<String> {
         val commonWords = extractWords(first) intersect extractWords(second)
