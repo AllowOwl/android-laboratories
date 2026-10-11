@@ -1,0 +1,36 @@
+<resources>
+    <style name="TextAppearance.RecipeBook.Title" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="fontFamily">@font/lora_medium</item>
+        <item name="android:fontFamily">@font/lora_medium</item>
+    </style>
+
+    <style name="TextAppearance.RecipeBook.Section" parent="TextAppearance.Material3.TitleMedium">
+        <item name="fontFamily">@font/lora_medium</item>
+        <item name="android:fontFamily">@font/lora_medium</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.RecipeBook.ToolbarTitle" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/lora_medium</item>
+        <item name="android:fontFamily">@font/lora_medium</item>
+    </style>
+
+    <style name="Widget.RecipeBook.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="titleTextAppearance">@style/TextAppearance.RecipeBook.ToolbarTitle</item>
+    </style>
+
+    <style name="Widget.RecipeBook.Card" parent="Widget.Material3.CardView.Outlined">
+        <item name="shapeAppearance">?attr/shapeAppearanceCornerLarge</item>
+        <item name="cardBackgroundColor">?attr/colorSurfaceContainerLow</item>
+    </style>
+
+    <style name="Widget.RecipeBook.Chip.Category" parent="Widget.Material3.Chip.Filter">
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.Full</item>
+    </style>
+
+    <style name="Widget.RecipeBook.Button.Danger" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">?attr/colorError</item>
+        <item name="strokeColor">?attr/colorError</item>
+        <item name="iconTint">?attr/colorError</item>
+    </style>
+</resources>
