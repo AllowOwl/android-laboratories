@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Книга рецептов</string>
+
+    <string name="action_back">Назад</string>
+    <string name="action_close">Закрыть</string>
+
+    <string name="title_recipes">Мои рецепты</string>
+    <string name="hint_search">Поиск рецептов</string>
+    <string name="filter_all">Все</string>
+    <string name="filter_favorites">Избранное</string>
+    <string name="action_add_recipe">Рецепт</string>
+    <string name="empty_recipes">Рецептов не найдено</string>
+    <string name="cd_favorite">В избранном</string>
+
+    <string name="category_soup">Суп</string>
+    <string name="category_main_dish">Основное блюдо</string>
+    <string name="category_side_dish">Гарнир</string>
+    <string name="category_salad">Салат</string>
+    <string name="category_snack">Закуски</string>
+    <string name="category_dessert">Десерт</string>
+    <string name="category_drink">Напиток</string>
+
+    <string name="unit_gram">г</string>
+    <string name="unit_kilogram">кг</string>
+    <string name="unit_milliliter">мл</string>
+    <string name="unit_liter">л</string>
+    <string name="unit_piece">шт</string>
+    <string name="unit_tablespoon_name">столовая ложка</string>
+    <string name="unit_teaspoon_name">чайная ложка</string>
+    <string name="unit_to_taste">по вкусу</string>
+    <plurals name="unit_tablespoon">
+        <item quantity="one">%1$s столовая ложка</item>
+        <item quantity="few">%1$s столовые ложки</item>
+        <item quantity="many">%1$s столовых ложек</item>
+        <item quantity="other">%1$s столовой ложки</item>
+    </plurals>
+    <plurals name="unit_teaspoon">
+        <item quantity="one">%1$s чайная ложка</item>
+        <item quantity="few">%1$s чайные ложки</item>
+        <item quantity="many">%1$s чайных ложек</item>
+        <item quantity="other">%1$s чайной ложки</item>
+    </plurals>
+    <string name="format_minutes">%d мин</string>
+
+    <string name="action_favorite">В избранное</string>
+    <string name="action_edit">Редактировать</string>
+    <string name="label_yield">Выход блюда</string>
+    <string name="helper_yield_original">Исходно: %1$s</string>
+    <string name="action_recalculate">Пересчитать</string>
+    <string name="action_reset">Сбросить</string>
+    <string name="section_ingredients">Продукты</string>
+    <string name="section_ingredients_scaled">Продукты · пересчитано ×%1$s</string>
+    <string name="section_steps">Приготовление</string>
+
+    <string name="title_new_recipe">Новый рецепт</string>
+    <string name="title_edit_recipe">Редактирование</string>
+    <string name="action_save">Сохранить</string>
+    <string name="hint_title">Название</string>
+    <string name="hint_category">Категория</string>
+    <string name="hint_cooking_time">Время, мин</string>
+    <string name="hint_yield">Выход</string>
+    <string name="hint_ingredient">Продукт</string>
+    <string name="hint_amount">Кол-во</string>
+    <string name="hint_unit">Ед. изм.</string>
+    <string name="action_add_ingredient">Добавить продукт</string>
+    <string name="action_remove_ingredient">Удалить продукт</string>
+    <string name="hint_steps">Шаги приготовления</string>
+    <string name="helper_steps">Каждый шаг с новой строки</string>
+    <string name="action_delete_recipe">Удалить рецепт</string>
+
+    <string name="title_settings">Настройки</string>
+    <string name="section_language">Язык</string>
+    <string name="language_system">Как в системе</string>
+    <string name="section_about">О приложении</string>
+    <string name="about_app">Книга рецептов · версия 1.0</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="UnusedResources">
+    <string name="sample_recipe_title">Borscht</string>
+    <string name="sample_recipe_meta">Soup · 90 min · 1500 ml</string>
+    <string name="sample_cooking_time">90 min</string>
+    <string name="sample_yield_original">Original: 1500 ml</string>
+    <string name="sample_ingredients_scaled">Ingredients · scaled ×2</string>
+    <string name="sample_ingredient_name">Beetroot</string>
+    <string name="sample_ingredient_amount">600 g</string>
+    <string name="sample_steps">1. Make the broth.\n2. Cut the beetroot and carrots into strips.\n3. Fry the vegetables and add them to the broth.\n4. Simmer for 20 minutes, salt to taste.</string>
+    <string name="sample_steps_input">Make the broth.\nCut the beetroot and carrots into strips.\nFry the vegetables and add them to the broth.\nSimmer for 20 minutes, salt to taste.</string>
+</resources>
