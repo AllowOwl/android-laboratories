@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="UnusedResources">
+    <!-- Примеры данных только для превью разметки (атрибуты tools:). В коде не используются,
+         на двух языках — чтобы превью не смешивало язык интерфейса и язык данных. -->
+    <string name="sample_recipe_title">Борщ</string>
+    <string name="sample_recipe_meta">Суп · 90 мин · 1500 мл</string>
+    <string name="sample_cooking_time">90 мин</string>
+    <string name="sample_yield_original">Исходно: 1500 мл</string>
+    <string name="sample_ingredients_scaled">Продукты · пересчитано ×2</string>
+    <string name="sample_ingredient_name">Свёкла</string>
+    <string name="sample_ingredient_amount">600 г</string>
+    <string name="sample_steps">1. Сварить бульон.\n2. Нарезать свёклу и морковь соломкой.\n3. Обжарить овощи и добавить в бульон.\n4. Варить 20 минут, посолить по вкусу.</string>
+    <string name="sample_steps_input">Сварить бульон.\nНарезать свёклу и морковь соломкой.\nОбжарить овощи и добавить в бульон.\nВарить 20 минут, посолить по вкусу.</string>
+</resources>
