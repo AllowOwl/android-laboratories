@@ -18,14 +18,14 @@ interface RecipeDao {
     suspend fun getById(id: Long): Recipe?
 
     @Query("""
-        SELECT ing.name, ri.amount, ri.unit, ri.position
+        SELECT ing.name, ri.amount, ri.unit
         FROM recipe_ingredient ri JOIN ingredient ing ON ing.id = ri.ingredientId
         WHERE ri.recipeId = :recipeId ORDER BY ri.position
     """)
     fun observeLines(recipeId: Long): Flow<List<IngredientLine>>
 
     @Query("""
-        SELECT ing.name, ri.amount, ri.unit, ri.position
+        SELECT ing.name, ri.amount, ri.unit
         FROM recipe_ingredient ri JOIN ingredient ing ON ing.id = ri.ingredientId
         WHERE ri.recipeId = :recipeId ORDER BY ri.position
     """)
