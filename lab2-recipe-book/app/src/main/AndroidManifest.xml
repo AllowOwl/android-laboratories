@@ -13,7 +13,7 @@
         android:theme="@style/Theme.RecipeBook"
         android:name=".RecipeBookApp">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.list.MainActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -23,18 +23,18 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".RecipeDetailActivity"
+            android:name=".ui.detail.RecipeDetailActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".ui.list.MainActivity" />
         <activity
-            android:name=".EditRecipeActivity"
+            android:name=".ui.editor.EditRecipeActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".SettingsActivity"
+            android:name=".ui.settings.SettingsActivity"
             android:exported="false"
             android:label="@string/title_settings"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".ui.list.MainActivity" />
     </application>
 
 </manifest>

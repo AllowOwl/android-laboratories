@@ -1,4 +1,4 @@
-package com.example.recipebook.data
+package com.example.recipebook.data.model
 
 data class IngredientLine(
     val name: String,

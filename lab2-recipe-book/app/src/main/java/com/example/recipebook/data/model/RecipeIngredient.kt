@@ -1,4 +1,4 @@
-package com.example.recipebook.data
+package com.example.recipebook.data.model
 
 import androidx.room.Entity
 import androidx.room.ForeignKey

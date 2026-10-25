@@ -1,5 +1,11 @@
 package com.example.recipebook.data
 
+import com.example.recipebook.data.model.Category
+import com.example.recipebook.data.model.IngredientLine
+import com.example.recipebook.data.model.IngredientUnit
+import com.example.recipebook.data.model.Recipe
+import com.example.recipebook.data.model.YieldUnit
+
 object StarterRecipes {
     suspend fun insertAll(repository: RecipeRepository) {
         repository.saveRecipe(

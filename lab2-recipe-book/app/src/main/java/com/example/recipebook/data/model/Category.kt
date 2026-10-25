@@ -1,4 +1,4 @@
-package com.example.recipebook.data
+package com.example.recipebook.data.model
 
 enum class Category {
     SOUP,

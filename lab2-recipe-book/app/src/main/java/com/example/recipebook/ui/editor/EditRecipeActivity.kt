@@ -1,4 +1,4 @@
-package com.example.recipebook
+package com.example.recipebook.ui.editor
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
