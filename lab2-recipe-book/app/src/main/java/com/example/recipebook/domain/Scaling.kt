@@ -1,7 +1,7 @@
 package com.example.recipebook.domain
 
 import com.example.recipebook.data.model.IngredientUnit
-import kotlin.math.round
+import kotlin.math.roundToLong
 
 object Scaling {
     fun scale(amount: Double?, unit: IngredientUnit, factor: Double): Double? {
@@ -10,14 +10,14 @@ object Scaling {
         val scaled = amount * factor
 
         return when (unit) {
-            IngredientUnit.GRAM -> round(scaled)
-            IngredientUnit.MILLILITER -> round(scaled)
+            IngredientUnit.GRAM -> scaled.roundToLong().toDouble()
+            IngredientUnit.MILLILITER -> scaled.roundToLong().toDouble()
 
-            IngredientUnit.KILOGRAM -> round(scaled * 10) / 10
-            IngredientUnit.LITER -> round(scaled * 10) / 10
-            IngredientUnit.PIECE -> round(scaled * 10) / 10
-            IngredientUnit.TABLESPOON -> round(scaled * 10) / 10
-            IngredientUnit.TEASPOON -> round(scaled * 10) / 10
+            IngredientUnit.KILOGRAM -> (scaled * 10).roundToLong() / 10.0
+            IngredientUnit.LITER -> (scaled * 10).roundToLong() / 10.0
+            IngredientUnit.PIECE -> (scaled * 10).roundToLong() / 10.0
+            IngredientUnit.TABLESPOON -> (scaled * 10).roundToLong() / 10.0
+            IngredientUnit.TEASPOON -> (scaled * 10).roundToLong() / 10.0
             IngredientUnit.TO_TASTE -> null
         }
     }
