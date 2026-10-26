@@ -73,4 +73,7 @@
     <string name="language_system">Как в системе</string>
     <string name="section_about">О приложении</string>
     <string name="about_app">Книга рецептов · версия 1.0</string>
+    <string name="unit_tablespoon_fraction">%1$s столовой ложки</string>
+    <string name="unit_teaspoon_fraction">%1$s чайной ложки</string>
+    <string name="error_yield">Введите число больше нуля</string>
 </resources>
