@@ -43,6 +43,7 @@
     <string name="format_minutes">%d мин</string>
 
     <string name="action_favorite">В избранное</string>
+    <string name="action_unfavorite">Убрать из избранного</string>
     <string name="action_edit">Редактировать</string>
     <string name="label_yield">Выход блюда</string>
     <string name="helper_yield_original">Исходно: %1$s</string>

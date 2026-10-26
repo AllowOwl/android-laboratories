@@ -39,6 +39,7 @@
     <string name="format_minutes">%d min</string>
 
     <string name="action_favorite">Add to favorites</string>
+    <string name="action_unfavorite">Remove from favorites</string>
     <string name="action_edit">Edit</string>
     <string name="label_yield">Yield</string>
     <string name="helper_yield_original">Original: %1$s</string>

@@ -24,4 +24,8 @@ class EditRecipeActivity : AppCompatActivity() {
             insets
         }
     }
+
+    companion object {
+        const val EXTRA_RECIPE_ID = "recipe_id"
+    }
 }
