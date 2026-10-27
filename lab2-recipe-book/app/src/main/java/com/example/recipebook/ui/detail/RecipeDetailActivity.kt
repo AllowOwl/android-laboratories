@@ -71,7 +71,7 @@ class RecipeDetailActivity : AppCompatActivity() {
             val current = recipe ?: return@setOnClickListener
             val wanted = binding.yieldInput.text.toString().replace(',', '.').toDoubleOrNull()
             if (wanted == null || wanted <= 0) {
-                binding.yieldLayout.error = getString(R.string.error_yield)
+                binding.yieldLayout.error = getString(R.string.error_number)
             } else {
                 binding.yieldLayout.error = null
                 viewModel.scaleTo(wanted, current.yieldAmount)

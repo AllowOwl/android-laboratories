@@ -74,5 +74,7 @@
     <string name="about_app">Recipe Book · version 1.0</string>
     <string name="unit_tablespoon_fraction">%1$s tablespoons</string>
     <string name="unit_teaspoon_fraction">%1$s teaspoons</string>
-    <string name="error_yield">Enter a number greater than zero</string>
+    <string name="error_number">Enter a number greater than zero</string>
+    <string name="error_name_required">Enter a name</string>
+    <string name="error_ingredient_duplicate">This ingredient is already in the recipe</string>
 </resources>
