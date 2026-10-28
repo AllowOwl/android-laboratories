@@ -79,4 +79,9 @@
     <string name="error_number">Введите число больше нуля</string>
     <string name="error_name_required">Введите название</string>
     <string name="error_ingredient_duplicate">Этот продукт уже есть в рецепте</string>
+    <string name="error_category">Выберите категорию</string>
+    <string name="dialog_delete_title">Удалить рецепт?</string>
+    <string name="dialog_delete_message">Рецепт будет удалён безвозвратно.</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_delete">Удалить</string>
 </resources>

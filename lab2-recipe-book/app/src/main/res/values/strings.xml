@@ -77,4 +77,9 @@
     <string name="error_number">Enter a number greater than zero</string>
     <string name="error_name_required">Enter a name</string>
     <string name="error_ingredient_duplicate">This ingredient is already in the recipe</string>
+    <string name="error_category">Choose a category</string>
+    <string name="dialog_delete_title">Delete recipe?</string>
+    <string name="dialog_delete_message">The recipe will be deleted permanently.</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
 </resources>
