@@ -1,0 +1,22 @@
+<resources>
+    <string-array name="categories">
+        <item>@string/category_soup</item>
+        <item>@string/category_main_dish</item>
+        <item>@string/category_side_dish</item>
+        <item>@string/category_salad</item>
+        <item>@string/category_snack</item>
+        <item>@string/category_dessert</item>
+        <item>@string/category_drink</item>
+    </string-array>
+
+    <string-array name="units">
+        <item>@string/unit_gram</item>
+        <item>@string/unit_kilogram</item>
+        <item>@string/unit_milliliter</item>
+        <item>@string/unit_liter</item>
+        <item>@string/unit_piece</item>
+        <item>@string/unit_tablespoon_name</item>
+        <item>@string/unit_teaspoon_name</item>
+        <item>@string/unit_to_taste</item>
+    </string-array>
+</resources>
