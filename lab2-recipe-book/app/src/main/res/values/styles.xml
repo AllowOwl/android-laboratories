@@ -33,4 +33,13 @@
         <item name="strokeColor">?attr/colorError</item>
         <item name="iconTint">?attr/colorError</item>
     </style>
+
+    <style name="ThemeOverlay.RecipeBook.DeleteDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.RecipeBook.Button.DialogDanger</item>
+    </style>
+
+    <style name="Widget.RecipeBook.Button.DialogDanger" parent="Widget.Material3.Button">
+        <item name="backgroundTint">?attr/colorError</item>
+        <item name="android:textColor">?attr/colorOnError</item>
+    </style>
 </resources>
