@@ -133,7 +133,7 @@ class EditRecipeActivity : AppCompatActivity() {
     }
 
     private fun confirmDelete() {
-        MaterialAlertDialogBuilder(this)
+        MaterialAlertDialogBuilder(this, R.style.ThemeOverlay_RecipeBook_DeleteDialog)
             .setTitle(R.string.dialog_delete_title)
             .setMessage(R.string.dialog_delete_message)
             .setNegativeButton(R.string.action_cancel, null)
